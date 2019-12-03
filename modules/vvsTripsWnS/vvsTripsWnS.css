@@ -1,0 +1,91 @@
+.trainlist {
+	width: 100%;
+}
+.trainlist .rows {
+	width: 100%;
+	font-size: 80%;
+	color: white;
+}
+.trainlist .delay {
+    width: 5%;
+	text-align: left;
+	display: inline-block;
+}
+.trainlist .nodelay {
+    width: 5%;
+	text-align: left;
+	display: inline-block;
+}
+
+.trainlist .nodelay.color {
+    color: greenyellow;
+}
+.trainlist .delay.color { 
+    color: red;
+}
+.trainlist .number.other {
+	color: lightgray;
+}
+
+.trainlist .number.sbahn {
+	color: #ffaaaa;
+}
+.trainlist .number.rbahn {
+	color: lightgreen;
+}
+.trainlist .number.stadtbahn {
+	color: yellow;
+}
+.trainlist .number.bus {
+	color: cyan;
+}
+.trainlist .number.ic {
+	color: purple;
+}
+.trainlist .number {
+	width: 10%;
+	display: inline-block;
+	text-align: left;
+}
+.trainlist .destination {
+	width: 50%;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+.trainlist .origin {
+	width: 20%;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+.trainlist .time {
+	width: 15%;
+	color: white;
+	display: inline-block;
+	text-align: left;
+}
+.trainlist .time.delay.color {
+	color: red;
+}
+.trainlist .time.nodelay.color {
+	color: greenyellow;
+}
+.trainlist .info {
+    color: #ffaa77;
+    font-size: 60%;
+    line-height: initial;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 70%;
+	display: inline-block;
+	text-align: left;
+}
+.trainlist .info.small {
+	width: 10%;
+	display: inline-block;
+}
+.trainlist .info.big {
+	width: 20%;
+	display: inline-block;
+}
