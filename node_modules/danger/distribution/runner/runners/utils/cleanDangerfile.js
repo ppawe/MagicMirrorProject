@@ -9,7 +9,7 @@ var es6Pattern = /^.* from ('|")danger('|");?$/gm;
  * @param {string} contents the file path for the dangerfile
  * @returns {string} the revised Dangerfile
  */
-exports.default = function (contents) {
+exports.default = (function (contents) {
     return contents.replace(es6Pattern, "// Removed import").replace(requirePattern, "// Removed require");
-};
+});
 //# sourceMappingURL=cleanDangerfile.js.map
